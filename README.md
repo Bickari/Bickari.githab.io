@@ -1,1 +1,1 @@
-# Bickari.githab.io
+# Bickari.github.io
