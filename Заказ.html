@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<style>
+    body {
+        background: url(./Фото/IMG_20250212_124804_329.jpg);
+        background-size: 100%;
+    } 
+    </style> 
+<body>
+    <div>
+        <button id="buttonplus" onclick="plus()">+</button>
+        <img src="./Фото/-5291958041991835978_121.jpg" width="400" height="300">
+        <p>1000 рублей</p>
+        <button id="buttonplus" onclick="plus()">+</button>
+<img src="./Фото/1.jpg" width="" height="">
+<p>500-800 рублей</p>
+<button id="buttonplus" onclick="plus()">+</button>
+<img src="./Фото/2.jpg" width="" height="">
+<p>500-800 рублей</p>
+<button id="buttonplus" onclick="plus()">+</button>
+<img src="./Фото/3.jpg" width="" height="">
+<p>500-800 рублей</p>
+<button id="buttonplus" onclick="plus()">+</button>
+<img src="./Фото/4.jpg" width="" height="">
+<p>500-800 рублей</p>
+<button id="buttonplus" onclick="plus()">+</button>
+<img src="./Фото/5.jpg" width="" height="">
+<p>500-800 рублей</p>
+    </div>
+    <button id="buttonorder" onclick="order()">Заказать</button>
+    <p id="atuzuh">0</p>
+</body>
+<script>
+    const buttonplis = document.getElementById('buttonplus');
+    const atuzuh = document.getElementById('atuzuh');
+    let count = 0;
+    function plus(){
+            count++;
+            console.log(count);
+            atuzuh.innerText=count;
+    }
+    function order(){
+            count = 0;
+            atuzuh.innerText=count;
+    }
+    </script>
+    </html>
